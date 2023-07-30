@@ -1,0 +1,6 @@
+selenium
+onnx
+opencv-python
+numpy
+onnxruntime
+pandas
