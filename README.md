@@ -3,7 +3,7 @@
 ---
 ### &nbsp;&nbsp;&nbsp;&nbsp;狂躁医学生不想刷网课？一学期12门网课，**医学院我![img.png](readme_img/img.png)老X（情绪过于激动被带走）……<br />
 ### &nbsp;&nbsp;&nbsp;&nbsp;~~这是一款基于[Selenium](https://github.com/SeleniumHQ/selenium)开发自动刷智慧树网课的Python脚本。~~
-#### &nbsp;&nbsp;&nbsp;&nbsp;这是一款基于[YOLOv5](https://github.com/ultralytics/yolov5)框架开发的针对易盾空间验证码进行识别并破解的自动验证码处理工具。因为在开发该工具过程中发现已经有大佬[@VermiIIi0n](https://github.com/VermiIIi0n)从[后端](https://github.com/VermiIIi0n/fuckZHS)（*）进入智慧树深处，所以这个自动识别智慧树上的空间推理验证码工具也没有什么用处了，所以就不再开发刷网课的脚本，只把这个工具单独上传了。  
+#### &nbsp;&nbsp;&nbsp;&nbsp;这是一款基于[YOLOv5](https://github.com/ultralytics/yolov5)框架开发的针对易盾空间验证码进行识别并破解的自动验证码处理工具。因为在开发该工具过程中发现已经有大佬[@VermiIIi0n](https://github.com/VermiIIi0n)从[后端](https://github.com/VermiIIi0n/fuckZHS)（*）进入智慧树深处，所以用这个自动识别智慧树上的空间推理验证码工具再开发刷网课的脚本也没有什么用处了，就暂停开发，只把这个工具单独上传了。  
 
 😅文件树：  
 ```
