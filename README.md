@@ -49,8 +49,6 @@ zhuerding
 - 首先确保您的python版本 >= 3.9，本项目基于python 3.9开发。  
 - 然后通过pip的方式下载依赖的包：<br />
 ```pip install -r requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple```
-<br />
-<br />
 ### 食用中<br />
 #### 输入：
  &nbsp;&nbsp;&nbsp;&nbsp;本工具如果在不改变项目结构和识别效果的情况下仅需修改两个参数   
@@ -58,10 +56,9 @@ zhuerding
     content = '请点击小写n朝向一样的大写K'  # 你提出的与图片对应的问题 
     image_path = r'./img/20.jpg'  # 与问题对应的图片
  &nbsp;&nbsp;&nbsp;&nbsp;一个是```content```参数，其输入的是与输入图片相对应的文字题目；另一个是```image_path```，其输入的是与输入文字相对应的图片地址。两者为必填内容。  
-  &nbsp;&nbsp;&nbsp;&nbsp;如果您需要与Selenium相结合，可以参考[read.py](./mods/read.py)中爬取易盾官网上验证码的代码，一般来说其他用了易盾空间推理验证码的网站，其验证码图片名不会更改。
- <br />
- <br />
- #### 输出：
+  &nbsp;&nbsp;&nbsp;&nbsp;如果您需要与Selenium相结合，可以参考[read.py](./mods/read.py)中爬取易盾官网上验证码的代码，一般来说其他用了易盾空间推理验证码的网站，其验证码图片名不会更改。  
+
+#### 输出：
  &nbsp;&nbsp;&nbsp;&nbsp;本程序的最终结果为了简便显示，仅会输出最终答案所在图片上的中心坐标。如图所示：  
  ![fuck smart_tree!!!](./readme_img/img_1.png)  
  &nbsp;&nbsp;&nbsp;&nbsp;输出答案的格式如图所示：  
@@ -74,8 +71,7 @@ zhuerding
           "square": 6,   # 答案文字区域的面积
           "crop": [6,6,6,6]   # 答案文字区域的坐标，(x1,y1,x2,y2)}
 以上为```answer```的结构，可以自行进行调用。
-<br />
-<br />
+
 ### 食用后：<br />
 ## FBI Warning：
 - 当您使用本程序时，您可能会触犯相关法律，请您注意
@@ -83,11 +79,9 @@ zhuerding
 ![fuck smart_tree!!!](./readme_img/res.jpg)  
 - 本程序在颜色识别方面需要提升，但是本人是医学牲……不会CV相关算法，所以只能炼丹，如果出现```部分颜色识别失败，可能影响识别效果```提示，其输出结果不一定可信，可信度约80%左右
 - 最后祝您吃饱喝饱，一路走好~
-<br />
-<br />
 ### Thanks：<br />
 - New Bing
-- [@qq_22487889](https://blog.csdn.net/qq_22487889/article/details/128011883)这位博主的《详细介绍 Yolov5 转 ONNX模型 + 使用ONNX Runtime 的 Python 部署》一文，本人参考~~抄袭~~甚多。
+- [@qq_22487889](https://blog.csdn.net/qq_22487889/article/details/128011883)这位博主的《详细介绍 Yolov5 转 ONNX模型 + 使用ONNX Runtime 的 Python 部署》一文，本人参考 ~~抄袭~~ 甚多。
 - 某不知名同学的几个小时的打标记工作（所以有没有办法用AI帮我打标记（滑稽））
 
 ### At last:
