@@ -51,7 +51,7 @@ zhuerding
 ```pip install -r requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple```
 <br />
 <br />
-### 食用中
+### 食用中<br />
 #### 输入：
  &nbsp;&nbsp;&nbsp;&nbsp;本工具如果在不改变项目结构和识别效果的情况下仅需修改两个参数   
 
@@ -65,11 +65,18 @@ zhuerding
  &nbsp;&nbsp;&nbsp;&nbsp;本程序的最终结果为了简便显示，仅会输出最终答案所在图片上的中心坐标。如图所示：  
  ![fuck smart_tree!!!](./readme_img/img_1.png)  
  &nbsp;&nbsp;&nbsp;&nbsp;输出答案的格式如图所示：  
- ![fuck smart_tree!!!](./readme_img/img_2.png)  
- &nbsp;&nbsp;&nbsp;&nbsp;如果您需要获取外周矩形框坐标，您只需要输入```answer["crop"].tolist()```即可获得矩形框四周坐标信息，格式为x1,y1,x2,y2（其中x1,y1为左上角坐标，x2,y2为右下角坐标）；如果您需要仅获取中心坐标的文字信息，只需要获得```crop```变量的值即可获得中心坐标文字信息，用于后续Selenium指针操作的进行。  
-  <br />
- <br />
- ### 食用后：
+ ![fuck smart_tree!!!](./readme_img/img_2.png)
+ &nbsp;&nbsp;&nbsp;&nbsp;以上推理仅需要CPU支持，不需要GPU（而且我也没有写使用GPU的函数）
+ 
+    answer = {"name": name,  # 答案文字
+          "direct": front,  # 答案文字的朝向
+          "color": gray,  # 答案文字的颜色
+          "square": 6,   # 答案文字区域的面积
+          "crop": [6,6,6,6]   # 答案文字区域的坐标，(x1,y1,x2,y2)}
+以上为```answer```的结构，可以自行进行调用。
+<br />
+<br />
+### 食用后：<br />
 ## FBI Warning：
 - 当您使用本程序时，您可能会触犯相关法律，请您注意
 - 本程序在在文字识别经去重后，对易盾空间推理验证码文字识别准确度可达99%以上，但是由于验证码的**操作，大写的I和小写的l实在难以区别，后期发现无法区别问题也没时间纠正，只能等之后修复这个Bug了。
