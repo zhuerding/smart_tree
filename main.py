@@ -132,9 +132,9 @@ import utils.classify_color
 #     #
 #     input()
 # 测试
-content = '请点击小写n朝向一样的大写K'
+content = '请点击小写y朝向一样的小写l'  # 你提出的与图片对应的问题
+image_path = r'./img/20.jpg'  # 与问题对应的图片
 print("收到数据，识别开始")
-image_path = r'./img/20.jpg'
 # 对文本进行分词
 noun = utils.segmentation_jieba.segmentation(content[3:])
 # 获取页面中内容
@@ -154,7 +154,6 @@ answer = utils.det_main.information(all_data, noun)
 if type(answer) == type("a"):
     print(answer)
 else:
-    print(len(dat))
     lst = answer["crop"].tolist()
     crop = ((lst[2] - lst[0])/2, (lst[3] - lst[1])/2)
     print('输入的问题是:', "\033[34m" + content + '\033[0;0m')

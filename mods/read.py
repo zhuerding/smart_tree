@@ -29,10 +29,10 @@ while i <= 20:
     r = requests.get(urls)
     img = r.content
     # 写入图片
-    with open(f"./img/{i}.jpg", "wb") as f:
+    with open(f"./output/{i}.jpg", "wb") as f:
         f.write(img)
     content = content + str('\n') + '  ' + f"{i}.jpg"
-    with open(f"./img/content.txt", "a") as f:
+    with open(f"./output/content.txt", "a") as f:
         f.write(content)
     i = i + 1
 # button = browser.find_element(By.XPATH, '//li[@id="notLogin"]/a[@target="_self"]')
