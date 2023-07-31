@@ -81,7 +81,7 @@ zhuerding
 - 最后祝您吃饱喝饱，一路走好~
 ### Thanks：<br />
 - New Bing
-- [@qq_22487889](https://blog.csdn.net/qq_22487889/article/details/128011883)这位博主的《详细介绍 Yolov5 转 ONNX模型 + 使用ONNX Runtime 的 Python 部署》一文，本人参考 ~~抄袭~~ 甚多。
+- [@qq_22487889](https://blog.csdn.net/qq_22487889?type=blog)这位博主的[《详细介绍 Yolov5 转 ONNX模型 + 使用ONNX Runtime 的 Python 部署》]((https://blog.csdn.net/qq_22487889/article/details/128011883))一文，本人参考 ~~抄袭~~ 甚多。
 - 某不知名同学的几个小时的打标记工作（所以有没有办法用AI帮我打标记（滑稽））
 
 ### At last:
