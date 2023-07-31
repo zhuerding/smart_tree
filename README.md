@@ -83,9 +83,9 @@ zhuerding
 ![fuck smart_tree!!!](./readme_img/res.jpg)  
 - 本程序在颜色识别方面需要提升，但是本人是医学牲……不会CV相关算法，所以只能炼丹，如果出现```部分颜色识别失败，可能影响识别效果```提示，其输出结果不一定可信，可信度约80%左右
 - 最后祝您吃饱喝饱，一路走好~
-  <br />
- <br />
-### Thanks：
+<br />
+<br />
+### Thanks：<br />
 - New Bing
 - [@qq_22487889](https://blog.csdn.net/qq_22487889/article/details/128011883)这位博主的《详细介绍 Yolov5 转 ONNX模型 + 使用ONNX Runtime 的 Python 部署》一文，本人参考~~抄袭~~甚多。
 - 某不知名同学的几个小时的打标记工作（所以有没有办法用AI帮我打标记（滑稽））
