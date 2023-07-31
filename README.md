@@ -91,5 +91,6 @@ zhuerding
 - 某不知名同学的几个小时的打标记工作（所以有没有办法用AI帮我打标记（滑稽））
 
 ### At last:
-  程序作者：**zhuerding**（一个**胡桃厨**）![](readme_img/hutao.jpg)  
+  程序作者：**zhuerding**（一个**胡桃厨**）  
+  ![hutao!!!](readme_img/hutao.jpg)  
   本程序遵循**GNU（GNU General Public License）通用公共许可协议**，源代码及其衍生代码的开源且免费使用并可以引用、修改，但不允许修改后和衍生的代码做为闭源的商业软件发布和销售。希望其他基于本程序开发的同学们遵守该协议。  
